@@ -1,0 +1,1281 @@
+/*Fondodelsitioweb*/
+    html,body{margin:0;padding:0;height:100&#37;;}
+    body{overflow:hidden;}
+    #fondo,#sitio{width:100%;height:100%;position:absolute;top:0;left:0;z-index:-1;}
+    #sitio{z-index:1;overflow:auto;}
+
+/*Modal*/
+body {
+	text-align: center;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.modal {
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.8);
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	display: flex;
+	
+	animation: modal 2s 3s forwards;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.contenido {
+	margin: auto;
+	width: 40%;
+	height: 40%;
+	background: white;
+	border-radius: 10px;
+}
+
+#cerrar {
+	display: none;
+}
+
+#cerrar + label {
+	position: fixed;
+	color: #fff;
+	font-size: 25px;
+	z-index: 50;
+	background: darkred;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	right: 150px;
+	top: 150px;
+	cursor: pointer;
+	
+	animation: modal 2s 3s forwards;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#cerrar:checked + label, #cerrar:checked ~ .modal {
+	display: none;
+}
+
+@keyframes modal {
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+
+/*Modal*/
+
+.fondo{
+	 width: 100%; height: 100; 
+}
+.imagen-modal{
+	height: 60%;
+	width: 60%;
+}
+/*Titulo*/
+h1 {
+	font-family: 'Dosis', sans-serif;
+}
+h2{
+	color: black;
+	font-family: 'Dosis', sans-serif;
+}
+/*Posiciones*/
+.poción-pastel-fila1{
+	     position:absolute;
+	      top:80px;
+	      left:150px;
+				}
+.poción-pastel-guayaba{
+	     position:absolute;
+	      top:400px;
+	      left:240px;
+				}
+.poción-pastel-preparando{
+	     position:absolute;
+	      top:740px;
+	      left:470px;
+				}
+.poción-pastel-XVaños{
+	     position:absolute;
+	      top:600px;
+	      left:550px;
+				}
+.poción-pastel-miel{
+	     position:absolute;
+	      top:700px;
+	      left:150px;
+				}
+.poción-pastel-zanahoria{
+	     position:absolute;
+	      top:900px;
+	      left:0px;
+				}
+.poción-pastel-colores{
+	     position:absolute;
+	      top:1600px;
+	      left:3px;
+				}
+.poción-pastel-delicious{
+	     position:absolute;
+	      top:1500px;
+	      left:460px;
+				}
+.poción-pastel-haciendo{
+	     position:absolute;
+	      top:1500px;
+	      left:10px;
+				}
+.poción-pastel-birday{
+	     position:absolute;
+	      top:1750px;
+	      left:70px;
+				}
+.poción-pastel-pasteldecanela{
+	     position:absolute;
+	      top:2000px;
+	      left:50px;
+				}
+.poción-pastel-volcan{
+	     position:absolute;
+	      top:2100px;
+	      left:800px;
+				}
+.poción-pastel-enhorno{
+	     position:absolute;
+	      top:2600px;
+	      left:500px;
+				}
+.poción-pastel-blancoyred{
+	     position:absolute;
+	      top:3100px;
+	      left:10px;
+				}
+.poción-pastel-elegante{
+	     position:absolute;
+	      top:3100px;
+	      left:660px;
+				}
+.poción-pastel-corazon{
+	     position:absolute;
+	      top:3800px;
+	      left:370px;
+				}
+/*Efectocircular*/
+.img-circular {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+
+/*Movimiento*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: arial;
+}
+
+div#imagen{
+	width: 544px;
+	height: 451px;
+	margin: 30px;
+	background-image: url("img/pastelchocolate.PNG");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info{
+	position: absolute;
+	overflow: hidden;
+	width: 544px;
+	height: 451px; 
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen:hover div#info{
+	opacity: 1;
+}
+
+p#headline{
+	position: absolute;
+	margin-top: 60px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen:hover p#headline{
+	margin-left: 120px;
+}
+
+p#info2{
+	margin: auto;
+	width: 500px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 520px;
+}
+
+div#imagen:hover p#info2{
+	margin-top: 120px;
+}
+
+/*Hover de pastel en forma de helado*/
+div#imagen1{
+	width: 228px;
+	height: 221px;
+	margin: 30px;
+	background-image: url("img/mofin.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info1{
+	position: absolute;
+	overflow: hidden;
+	width: 228px;
+	height: 221px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen1:hover div#info1{
+	opacity: 1;
+}
+
+p#headline1{
+	position: absolute;
+	margin-top: 40px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen1:hover p#headline1{
+	margin-left: 120px;
+}
+
+p#info3{
+	margin: auto;
+	width: 180px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 520px;
+}
+
+div#imagen1:hover p#info3{
+	margin-top: 120px;
+}
+
+/*Hover de pastel de guayaba*/
+div#imagen2{
+	width: 300px;
+	height: 168px;
+	margin: 30px;
+	background-image: url("img/guayaba.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info2{
+	position: absolute;
+	overflow: hidden;
+	width: 300px;
+	height: 168px; 
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen2:hover div#info2{
+	opacity: 1;
+}
+
+p#headline2{
+	position: absolute;
+	margin-top: 30px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -600px;
+	font-size: 21px;
+}
+
+div#imagen2:hover p#headline2{
+	margin-left: 120px;
+}
+
+p#info4{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 280px;
+}
+
+div#imagen2:hover p#info4{
+	margin-top: 80px;
+}
+
+
+/*Hover de pastel de colores*/
+div#imagen28{
+	width: 290px;
+	height: 174px;
+	margin: 30px;
+	background-image: url("img/colores.png");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info28{
+	position: absolute;
+	overflow: hidden;
+	width: 290px;
+	height: 174px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen28:hover div#info28{
+	opacity: 1;
+}
+
+p#headline28{
+	position: absolute;
+	margin-top: 30px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -600px;
+	font-size: 21px;
+}
+
+div#imagen28:hover p#headline28{
+	margin-left: 40px;
+}
+
+p#info30{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 310px;
+}
+
+div#imagen28:hover p#info30{
+	margin-top: 100px;
+}
+
+/*Hover de pastel de miel*/
+div#imagen4{
+	width: 285px;
+	height: 177px;
+	margin: 30px;
+	background-image: url("img/miel.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info4{
+	position: absolute;
+	overflow: hidden;
+	width: 285px;
+	height: 177px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen4:hover div#info4{
+	opacity: 1;
+}
+
+p#headline4{
+	position: absolute;
+	margin-top: 30px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -600px;
+	font-size: 21px;
+}
+
+div#imagen4:hover p#headline4{
+	margin-left: 120px;
+}
+
+p#info6{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 280px;
+}
+
+div#imagen4:hover p#info6{
+	margin-top: 80px;
+}
+
+/*Hover de mofin de rosas*/
+div#imagen3{
+	width: 278px;
+	height: 181px;
+	margin: 30px;
+	background-image: url("img/XVaños.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info3{
+	position: absolute;
+	overflow: hidden;
+	width: 278px;
+	height: 181px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen3:hover div#info3{
+	opacity: 1;
+}
+
+p#headline3{
+	position: absolute;
+	margin-top: 30px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -600px;
+	font-size: 21px;
+}
+
+div#imagen3:hover p#headline3{
+	margin-left: 40px;
+}
+
+p#info5{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 310px;
+}
+
+div#imagen3:hover p#info5{
+	margin-top: 100px;
+}
+
+/*Hover de preparando*/
+div#imagen5{
+	width: 300px;
+	height: 168px;
+	margin: 30px;
+	background-image: url("img/preparando.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info5{
+	position: absolute;
+	overflow: hidden;
+	width: 300px;
+	height: 168px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen5:hover div#info5{
+	opacity: 1;
+}
+
+p#headline5{
+	position: absolute;
+	margin-top: 30px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -600px;
+	font-size: 21px;
+}
+
+div#imagen5:hover p#headline5{
+	margin-left: 120px;
+}
+
+p#info7{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 280px;
+}
+
+div#imagen5:hover p#info7{
+	margin-top: 80px;
+}
+
+/*Hover de pastel de zanahoria*/
+
+div#imagen6{
+	width: 800px;
+	height: 530px;
+	margin: 30px;
+	background-image: url("img/zanahoria.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info6{
+	position: absolute;
+	overflow: hidden;
+	width: 800px;
+	height: 530px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen6:hover div#info6{
+	opacity: 1;
+}
+
+p#headline6{
+	position: absolute;
+	margin-top: 80px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen6:hover p#headline6{
+	margin-left: 120px;
+}
+
+p#info8{
+	margin: auto;
+	width: 500px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 520px;
+}
+
+div#imagen6:hover p#info8{
+	margin-top: 200px;
+}
+
+/*Hover de preparando*/
+div#imagen5{
+	width: 300px;
+	height: 168px;
+	margin: 30px;
+	background-image: url("img/preparando.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info5{
+	position: absolute;
+	overflow: hidden;
+	width: 300px;
+	height: 168px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen5:hover div#info5{
+	opacity: 1;
+}
+
+p#headline5{
+	position: absolute;
+	margin-top: 30px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -600px;
+	font-size: 21px;
+}
+
+div#imagen5:hover p#headline5{
+	margin-left: 120px;
+}
+
+p#info7{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 280px;
+}
+
+div#imagen5:hover p#info7{
+	margin-top: 80px;
+}
+
+/*Hover de mofins de colores*/
+
+div#imagen8{
+	width: 290px;
+	height: 174px;
+	margin: 30px;
+	background-image: url("img/colores.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info8{
+	position: absolute;
+	overflow: hidden;
+	width: 290px;
+	height: 174px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen8:hover div#info8{
+	opacity: 1;
+}
+
+p#headline8{
+	position: absolute;
+	margin-top: 80px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen8:hover p#headline8{
+	margin-left: 120px;
+}
+
+p#info10{
+	margin: auto;
+	width: 500px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 520px;
+}
+
+div#imagen8:hover p#info10{
+	margin-top: 200px;
+}
+
+/*Hover de haciendo*/
+
+div#imagen9{
+	width: 275px;
+	height: 183px;
+	margin: 30px;
+	background-image: url("img/haciendo.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info9{
+	position: absolute;
+	overflow: hidden;
+	width: 275px;
+	height: 183px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen9:hover div#info9{
+	opacity: 1;
+}
+
+p#headline9{
+	position: absolute;
+	margin-top: 40px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen9:hover p#headline9{
+	margin-left: 120px;
+}
+
+p#info11{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 320px;
+}
+
+div#imagen9:hover p#info11{
+	margin-top: 80px;
+}
+
+/*Hover de haciendo*/
+
+div#imagen13{
+	width: 275px;
+	height: 183px;
+	margin: 30px;
+	background-image: url("img/birday.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info13{
+	position: absolute;
+	overflow: hidden;
+	width: 275px;
+	height: 183px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen13:hover div#info13{
+	opacity: 1;
+}
+
+p#headline13{
+	position: absolute;
+	margin-top: 30px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen13:hover p#headline13{
+	margin-left: 120px;
+}
+
+p#info15{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 320px;
+}
+
+div#imagen13:hover p#info15{
+	margin-top: 100px;
+}
+
+/*Hover de delicious*/
+
+div#imagen14{
+	width: 800px;
+	height: 533px;
+	margin: 30px;
+	background-image: url("img/delicious.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info14{
+	position: absolute;
+	overflow: hidden;
+	width: 800px;
+	height: 533px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen14:hover div#info14{
+	opacity: 1;
+}
+
+p#headline14{
+	position: absolute;
+	margin-top: 80px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen14:hover p#headline14{
+	margin-left: 120px;
+}
+
+p#info16{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 320px;
+}
+
+div#imagen14:hover p#info16{
+	margin-top: 180px;
+}
+
+/*Hover de pastel de canela*/
+
+div#imagen15{
+	width: 800px;
+	height: 530px;
+	margin: 30px;
+	background-image: url("img/pasteldecanela.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info15{
+	position: absolute;
+	overflow: hidden;
+	width: 800px;
+	height: 530px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen15:hover div#info15{
+	opacity: 1;
+}
+
+p#headline15{
+	position: absolute;
+	margin-top: 120px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen15:hover p#headline15{
+	margin-left: 320px;
+}
+
+p#info17{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 320px;
+}
+
+div#imagen15:hover p#info17{
+	margin-top: 180px;
+}
+
+/*Hover de pastel volcán*/
+
+div#imagen16{
+	width: 386px;
+	height: 386px;
+	margin: 30px;
+	background-image: url("img/volcan.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info16{
+	position: absolute;
+	overflow: hidden;
+	width: 386px;
+	height: 386px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen16:hover div#info16{
+	opacity: 1;
+}
+
+p#headline16{
+	position: absolute;
+	margin-top: 120px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen16:hover p#headline16{
+	margin-left: 120px;
+}
+
+p#info18{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 320px;
+}
+
+div#imagen16:hover p#info18{
+	margin-top: 180px;
+}
+
+/*Hover de pastel horno*/
+
+div#imagen17{
+	width: 400px;
+	height: 400px;
+	margin: 30px;
+	background-image: url("img/enhorno.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info17{
+	position: absolute;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen17:hover div#info17{
+	opacity: 1;
+}
+
+p#headline17{
+	position: absolute;
+	margin-top: 120px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen17:hover p#headline17{
+	margin-left: 120px;
+}
+
+p#info19{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 320px;
+}
+
+div#imagen17:hover p#info19{
+	margin-top: 180px;
+}
+
+/*Hover de pastel de corazón*/
+
+div#imagen18{
+	width: 800px;
+	height: 533px;
+	margin: 30px;
+	background-image: url("img/corazon.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info18{
+	position: absolute;
+	overflow: hidden;
+	width: 800px;
+	height: 533px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen18:hover div#info18{
+	opacity: 1;
+}
+
+p#headline18{
+	position: absolute;
+	margin-top: 120px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen18:hover p#headline18{
+	margin-left: 320px;
+}
+
+p#info20{
+	margin: auto;
+	width: 200px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 320px;
+}
+
+div#imagen18:hover p#info20{
+	margin-top: 180px;
+}
+
+/*Hover de pasteles entrelazados*/
+
+div#imagen21{
+	width: 800px;
+	height: 536px;
+	margin: 30px;
+	background-image: url("img/blancoyred.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info21{
+	position: absolute;
+	overflow: hidden;
+	width: 800px;
+	height: 536px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen21:hover div#info21{
+	opacity: 1;
+}
+
+p#headline21{
+	position: absolute;
+	margin-top: 120px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen21:hover p#headline21{
+	margin-left: 120px;
+}
+
+p#info23{
+	margin: auto;
+	width: 300px;
+	text-align: left;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 320px;
+}
+
+div#imagen21:hover p#info23{
+	margin-top: 180px;
+}
+
+/*Hover de pasteles entrelazados*/
+
+div#imagen22{
+	width: 800px;
+	height: 600px;
+	margin: 30px;
+	background-image: url("img/elegante.jpg");
+	  border-top-left-radius: 50% 50%;
+  	border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+div#info22{
+	position: absolute;
+	overflow: hidden;
+	width: 800px;
+	height: 600px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	  border-top-left-radius: 50% 50%;
+  		border-top-right-radius: 50% 50%;
+  		border-bottom-right-radius: 50% 50%;
+ 	 border-bottom-left-radius: 50% 50%;
+	opacity: 0;
+}
+div#imagen22:hover div#info22{
+	opacity: 1;
+}
+
+p#headline22{
+	position: absolute;
+	margin-top: 120px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen22:hover p#headline22{
+	margin-left: 120px;
+}
+
+p#info25{
+	margin: auto;
+	width: 300px;
+	text-align: left;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 320px;
+}
+
+div#imagen22:hover p#info25{
+	margin-top: 180px;
+}

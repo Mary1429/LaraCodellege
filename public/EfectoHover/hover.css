@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: arial;
+}
+
+div#imagen{
+	width: 544px;
+	height: 451px;
+	margin: 30px;
+	background-image: url(pastelchocolate.png);
+
+}
+
+div#info{
+	position: absolute;
+	overflow: hidden;
+	width: 544px;
+	height: 451px; 
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition:opacity 0.2s;
+	-moz-transition:opacity 0.2s;
+	opacity: 0;
+}
+div#imagen:hover div#info{
+	opacity: 1;
+}
+
+p#headline{
+	position: absolute;
+	margin-top: 20px;
+	-webkit-transition:margin 0.2s;
+	-moz-transition:margin 0.2s;
+	margin-left: -700px;
+	font-size: 21px;
+}
+
+div#imagen:hover p#headline{
+	margin-left: 70px;
+}
+
+p#info2{
+	margin: auto;
+	width: 500px;
+	text-align: center;
+	-webkit-transition:margin 0.3s;
+	-moz-transition:margin 0.3s;
+	margin-top: 620px;
+}
+
+div#imagen:hover p#info2{
+	margin-top: 70px;
+}

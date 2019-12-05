@@ -1,0 +1,41 @@
+nav{
+    background-color: white;
+}
+#logo{
+    position: absolute;
+    left: 7%;
+    top: 1%;
+}
+#barra{
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 50;
+    font-size: 2vw;
+}
+.fondoAdd{
+    background-color:#FE9494;
+}
+.sweet{
+    left: 35%;
+    position: absolute;
+    top: 15%;
+}
+.texto{
+    left: 16%;
+    position: relative;
+}
+.texto2{
+    left:45%;
+    position:relative;
+}
+.texto3{
+    left:5%;
+    position:relative;
+}
+.tabla{
+    margin-left:3%;
+    width:95%;
+    margin-top:3%;
+}
