@@ -38,7 +38,7 @@
     <nav class="navbar navbar-light" id="barra">
         <a class="navbar-brand" href="#" id="logo">
         </a>
-        <center><a href=""><img src="img/name.PNG" alt="" height="65"></a></center>
+        <center><a href="/"><img src="img/name.PNG" alt="" height="65"></a></center>
     </nav>
     <br>
 

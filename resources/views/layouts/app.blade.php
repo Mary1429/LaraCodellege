@@ -24,7 +24,7 @@
               <img  src="img/logosweetsreposteria.jpeg" width="30" height="30">
             </a>
             <a href="#" class="texto3">Inicio</a>
-            <a href=""><img src="img/name.PNG" alt="" height="45" class="sweet"></a>
+            <a href="/"><img src="img/name.PNG" alt="" height="45" class="sweet"></a>
             <a href="#productos" class="texto">Productos</a>
             <div class="navbar-custom-menu pull-right">
                 <ul class="nav navbar-nav">

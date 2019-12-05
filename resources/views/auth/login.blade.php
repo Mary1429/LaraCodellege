@@ -42,7 +42,7 @@
         <nav class="navbar navbar-light" id="barra">
             <a class="navbar-brand" href="#" id="logo">
             </a>
-            <a href=""><img src="img/name.PNG" alt="" height="65"></a>
+            <a href="/"><img src="img/name.PNG" alt="" height="65"></a>
         </nav>
         <br>
 <div class="login-box">
