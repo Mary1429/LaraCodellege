@@ -15,7 +15,7 @@ nav{
     font-size: 2vw;
 }
 .fondoAdd{
-    background-color:#FE9494;
+    background-color:#DEE1E3;
 }
 .sweet{
     left: 35%;
@@ -37,5 +37,23 @@ nav{
 .tabla{
     margin-left:3%;
     width:95%;
-    margin-top:3%;
+    margin-top:-2%;
+}
+.showP{
+    margin-top:1%;
+    margin-left:10%;
+    width: 100%;
+}
+.borde{
+   border-block-start: #E76E39 5px solid;
+
+}
+.fondoP{
+    background-color: #C1D0DE;
+}
+.mov{
+    margin-left:82.4%;
+}
+.mov2{
+    margin-left:90%;
 }

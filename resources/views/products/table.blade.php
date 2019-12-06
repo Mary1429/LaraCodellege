@@ -1,8 +1,12 @@
 <br> <br> <br> <br>
+<style>
+    .naranja{border-block-start: #DF74A7 5px solid;}
+    .marg{margin-left: 8.3%;    }
+</style>
 <div>
-<div class="table-responsive tabla">
-
-    <table class="table" id="products-table">
+<div class="table-responsive tabla fondoP container naranja marg" >
+    <br>
+    <table class="table" id="products-table" >
         <thead>
             <tr>
                 <th>Nombre</th>

@@ -37,6 +37,9 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+        <style>
+            .fondoLog{background-color: #DEE1E3;}
+        </style>
 </head>
 <body>
         <nav class="navbar navbar-light" id="barra">
@@ -45,9 +48,11 @@
             <a href="/"><img src="img/name.PNG" alt="" height="65"></a>
         </nav>
         <br>
-<div class="login-box">
+<div class=" fondoLog">
+    <br>
+<div class="login-box fondoLog">
     <div class="login-logo">
-        <a href="{{ url('/home') }}"><b> </b></a>
+        <a href="{{ url('/home') }}"></a>
     </div>
 
     <!-- /.login-logo -->
@@ -98,9 +103,9 @@
 
     </div>
     <!-- /.login-box-body -->
-</div>
+</div> <br>
 <!-- /.login-box -->
-
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 

@@ -34,6 +34,9 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+    <style>
+        .fondoReg{background-color: #DEE1E3;}
+    </style>
 <body>
     <nav class="navbar navbar-light" id="barra">
         <a class="navbar-brand" href="#" id="logo">
@@ -41,7 +44,8 @@
         <center><a href="/"><img src="img/name.PNG" alt="" height="65"></a></center>
     </nav>
     <br>
-
+<div class="fondoReg">
+    <br>
 <div class="register-box">
     <div class="register-logo">
         <a href="{{ url('/home') }}"><b> </b></a>
@@ -117,9 +121,9 @@
         <a href="{{ url('/login') }}" class="text-center"><font size=3>Ya cuento con una cuenta</font></a>
     </div>
     <!-- /.form-box -->
-</div>
+</div> <br>
 <!-- /.register-box -->
-
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 

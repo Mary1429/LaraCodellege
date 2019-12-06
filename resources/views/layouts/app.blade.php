@@ -17,14 +17,14 @@
         <title>Sweet's Reposteria</title>
         @yield('css')
     </head>
-<body class="skin-blue sidebar-mini fondoAdd" background="white">
+<body class="skin-blue sidebar-mini fondoAdd">
 @if (!Auth::guest())
         <nav class="navbar navbar-light" id="barra">
             <a class="navbar-brand" href="#" id="logo">
               <img  src="{{ asset('img/logosweetsreposteria.jpeg')}}" width="30" height="30">
             </a>
             <a href="#" class="texto3">Inicio</a>
-            <a href="/"><img src="{{ asset('img/name.PNG')}}" alt="" height="45" class="sweet"></a>
+            <a href="#"><img src="{{ asset('img/name.PNG')}}" alt="" height="45" class="sweet"></a>
             <a href="#productos" class="texto">Productos</a>
             <div class="navbar-custom-menu pull-right">
                 <ul class="nav navbar-nav">

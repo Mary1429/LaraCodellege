@@ -56,7 +56,7 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="item active">
-                        <img src="img/c1.jpg" alt="Chania" style="height:715px;">
+                        <img src="img/c1.jpg" alt="" style="height:715px;">
                         <div class="carousel-caption">
                           <h3>Pasteles</h3>
                           <p>Gran variedad de pasteles para todo tipo de eventos especial: compleaños, bodas, despedidas, etc...</p>
@@ -64,7 +64,7 @@
                       </div>
 
                       <div class="item">
-                        <img src="img/c2.jpg" alt="Chicago" style="height:715px;">
+                        <img src="img/c2.jpg" alt="" style="height:715px;">
                         <div class="carousel-caption">
                           <h3>Cupcakes</h3>
                           <p>Cupcakes de gran variedad de sabores y decoraciones...</p>
@@ -72,7 +72,7 @@
                       </div>
 
                       <div class="item">
-                        <img src="img/c3.jpg" alt="New York" style="height:715px;">
+                        <img src="img/c3.jpg" alt="" style="height:715px;">
                         <div class="carousel-caption">
                           <h3>Postres</h3>
                           <p>Ofresemos una gran variedad de postres...</p>
@@ -100,7 +100,7 @@
                         </div>
 
                         <div class="col-3 prod div-img" >
-                          <img class="img" src="img/pay.PNG" title="pay" alt="pay" width="100%">
+                          <img class="img" src="img/pay.PNG" title="" alt="" width="100%">
                           <p class="text">Pastel carajillo</p>
                         </div>
                         <div class="col-3 prod div-img">
@@ -114,7 +114,7 @@
                           <a href="Productos.html"><img src="img/row.png" alt="" width="30%"></a>
                       </div>
                       <div class="col-3 prod div-img">
-                          <img src="img/pastel2.PNG" alt="pay"class="imagenanimeDd ima3 ImgR img" width="100%">
+                          <img src="img/pastel2.PNG" alt=""class="imagenanimeDd ima3 ImgR img" width="100%">
                           <p class="text">Frutadiccion</p>
                       </div>
                       <div class="col-3 prod div-img">
