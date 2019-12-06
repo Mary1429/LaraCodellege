@@ -44,7 +44,8 @@ class productsController extends AppBaseController
      */
     public function create()
     {
-        return view('products.create');
+        $products = $this->productsRepository->all();
+        return view('products.create')->with('products', $products);
     }
 
     /**
@@ -66,7 +67,7 @@ class productsController extends AppBaseController
 
         }
 
-        Flash::success('Products saved successfully.');
+        Flash::success('Producto guardado exitosamente.');
 
         return redirect(route('products.index'));
     }
@@ -83,7 +84,7 @@ class productsController extends AppBaseController
         $products = $this->productsRepository->find($id);
 
         if (empty($products)) {
-            Flash::error('Products not found');
+            Flash::error('Producto no encontrado.');
 
             return redirect(route('products.index'));
         }
@@ -103,7 +104,7 @@ class productsController extends AppBaseController
         $products = $this->productsRepository->find($id);
 
         if (empty($products)) {
-            Flash::error('Products not found');
+            Flash::error('Producto no encontrado.');
 
             return redirect(route('products.index'));
         }
@@ -124,7 +125,7 @@ class productsController extends AppBaseController
         $products = $this->productsRepository->find($id);
 
         if (empty($products)) {
-            Flash::error('Products not found');
+            Flash::error('Producto no encontrado.');
 
             return redirect(route('products.index'));
         }
@@ -135,7 +136,7 @@ class productsController extends AppBaseController
             $products->fill(['image' => asset($path)])->save();
 
         }
-        Flash::success('Products updated successfully.');
+        Flash::success('Producto actualizado exitosamente.');
 
         return redirect(route('products.index'));
     }
@@ -154,14 +155,14 @@ class productsController extends AppBaseController
         $products = $this->productsRepository->find($id);
 
         if (empty($products)) {
-            Flash::error('Products not found');
+            Flash::error('Producto no encontrado.');
 
             return redirect(route('products.index'));
         }
 
         $this->productsRepository->delete($id);
 
-        Flash::success('Products deleted successfully.');
+        Flash::success('Producto eliminado exitosamente.');
 
         return redirect(route('products.index'));
     }

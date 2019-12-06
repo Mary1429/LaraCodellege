@@ -4,16 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+        <script src="{{ asset('http://code.jquery.com/jquery-3.2.1.slim.min.js')}}"
             integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
         </script>
-        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="{{ asset('/your-path-to-fontawesome/css/all.css" rel="stylesheet')}}">
+        <link rel="stylesheet" href="{{ asset('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')}}" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css')}}">
+        <script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')}}"></script>
+        <script src="{{ asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js')}}"></script>
         <link rel="stylesheet" href="{{ asset('vendor/Ionicons/css/ionicons.min.css') }}">
-        <link rel="stylesheet" href="products.css">
+        <link rel="stylesheet" href="{{ asset('products.css')}}">
         <title>Sweet's Reposteria</title>
         @yield('css')
     </head>
@@ -21,10 +21,10 @@
 @if (!Auth::guest())
         <nav class="navbar navbar-light" id="barra">
             <a class="navbar-brand" href="#" id="logo">
-              <img  src="img/logosweetsreposteria.jpeg" width="30" height="30">
+              <img  src="{{ asset('img/logosweetsreposteria.jpeg')}}" width="30" height="30">
             </a>
             <a href="#" class="texto3">Inicio</a>
-            <a href="/"><img src="img/name.PNG" alt="" height="45" class="sweet"></a>
+            <a href="/"><img src="{{ asset('img/name.PNG')}}" alt="" height="45" class="sweet"></a>
             <a href="#productos" class="texto">Productos</a>
             <div class="navbar-custom-menu pull-right">
                 <ul class="nav navbar-nav">
